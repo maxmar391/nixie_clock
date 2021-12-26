@@ -1,4 +1,4 @@
-//libraries
+ //libraries
 #include <Adafruit_NeoPixel.h>    // https://github.com/adafruit/Adafruit_NeoPixel
 #include <DS3231.h>               // http://www.rinkydinkelectronics.com/library.php?id=73    ACHTUNG: Dies ist NICHT die Bibliothek, die ueber den Bibliotheksverwalter eingebunden werden kann! Ggf. vorher die andere Bibliothek entfernen oder lokalen Speicherort angeben ("")
 
@@ -109,7 +109,8 @@ void loop()
   DS3231  rtc(SDA, SCL);      // Initialize the DS3231 time module using the hardware interface
   Time zeit;          // Define variable for storing the time
   rtc.begin();                // Initialize the time module
-  // rtc.setTime(21, 30, 0);      // Set time module to 12:00:00 (24 hours format)
+
+  //rtc.setTime(20, 58, 0);      // Set time module to 12:00:00 (24 hours format)
 
 
   while (1) // create artifical loop
