@@ -1,13 +1,13 @@
 # LED nixie clock with Arduino
 
 ## Description
-This repository is about a nixie clock based on an Arduino Nano board, an RTC module, and some LED nixie boards. 
+This repository is about a nixie clock based on an Arduino Nano board, an RTC module, and some LED nixie boards. The Arduino Nan
 
 
 
 ## Bill of materials
 * Arduino Nano
-The small version of the Arduino family to keep the electronics part small and discreet.
+The small version of the Arduino family to keep the electronics part small and discreet. The Arduino board reads the clock from the real time clock module and controls the LEDs accordingly. The code contains color changes every full hour. 
 * [DS3231 Real time clock (RTS) module](https://www.banggood.com/DS3231-AT24C32-IIC-Precision-RTC-Real-Time-Clock-Memory-Module-p-1547989.html)<br>
 This module is powered by a battery, equipped with a quartz oscillator, and maintains the clock even after being cut off from power. By doing so, the LED clock will not lose the information of the current time, even after plugged out from electricity.
 * CR2032 battery
@@ -51,3 +51,14 @@ Please find some references and related material for further reading below.
 * https://create.arduino.cc/projecthub/MisterBotBreak/how-to-use-a-real-time-clock-module-ds3231-bc90fe
 * https://www.heise.de/select/make/2018/4/1535076681386192 
 
+
+## Impressions
+Some impressions of the final LED nixie clock.
+
+![Complete view](pictures/IMG_1193.jpg)
+
+![Complete view](pictures/IMG_1197.jpg)
+
+![Detailed view](pictures/IMG_1194.jpg)
+
+![Detailed view](pictures/IMG_1195.jpg)
